@@ -20,10 +20,9 @@ function NewTranForm() {
 
     // empty error array
     error.length = 0;
-    if (error.length === 0) {
-      setText("");
-      setAmount("");
-    }
+
+    setText("");
+    setAmount("");
   };
   return (
     <>
