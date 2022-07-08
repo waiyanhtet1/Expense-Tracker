@@ -51,6 +51,7 @@ function Register() {
         setLoading(false);
         navigate("/");
       } catch (error) {
+        setLoading(false);
         setUserExit(error.response.data.message);
         setErrorMsg(error.response.data.error);
       }
